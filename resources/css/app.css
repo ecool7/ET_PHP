@@ -6,6 +6,122 @@
 @source '../**/*.js';
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+/* Custom Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Tab Styles */
+.tab-btn {
+    color: rgb(55 65 81);
+    transition: all 0.3s ease;
+    border: 1px solid transparent;
+}
+
+.tab-btn:hover {
+    color: rgb(17 24 39);
+    background-color: rgb(249 250 251);
+    border-color: rgb(229 231 235);
+}
+
+.tab-btn.active {
+    color: rgb(17 24 39);
+    background-color: rgb(243 244 246);
+    border-color: rgb(209 213 219);
+}
+
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.active {
+    display: block;
+    animation: fadeIn 0.6s ease-out forwards;
+}
+
+/* Smooth Transitions */
+* {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(243 244 246);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(156 163 175);
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(107 114 128);
+}
+
+/* Button Hover Effects */
+button:hover {
+    transform: translateY(-1px);
+}
+
+/* Card Hover Effects */
+.bg-gray-50:hover {
+    background-color: rgb(249 250 251);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo Animation */
+.logo-rectangle {
+    transition: transform 0.3s ease;
+}
+
+.logo-rectangle:hover {
+    transform: scale(1.05);
+}
+
+/* Minimalist Focus States */
+button:focus,
+a:focus {
+    outline: 2px solid rgb(55 65 81);
+    outline-offset: 2px;
+}
+
+/* Typography Enhancements */
+h1, h2, h3, h4, h5, h6 {
+    letter-spacing: -0.025em;
+}
+
+/* Responsive Animations */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
 }
