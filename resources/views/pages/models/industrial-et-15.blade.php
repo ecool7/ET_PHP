@@ -1,0 +1,57 @@
+@php
+$model = [
+    'name' => 'TLE-C150-CT-HD',
+    'description' => '15.0" Industrial Touch Monitor with Digital OSD',
+    'category' => 'Industrial',
+    'screen_size' => '15.0',
+    'resolution' => '1024x768',
+    'brightness' => '350',
+    'response_time' => '30ms',
+    'image' => '/images/products/industrial-et-15.svg',
+    'specifications' => [
+        'Case/Frame Color' => 'Black',
+        'Display Type' => 'Active matrix TFT LCD, LED backlight',
+        'Diagonal Dimension' => '15.0" diagonal',
+        'Aspect Ratio' => '4:3',
+        'Active Area Dimensions' => '305mm(H) x 229.01mm(V)',
+        'Display Size' => '355mm(W) x 279mm(H), Thickness: 46.5mm',
+        'Resolution' => '1024 x 768 @ 60Hz',
+        'Display Colors' => '16.7M',
+        'Brightness (Standard)' => '350 cd/m²',
+        'Response Time (Standard)' => '30ms',
+        'View Angle (from center)' => 'L/R: 89/89: U/D: 89/89 (Typ.) (CR≥10)',
+        'Contrast Ratio (Standard)' => '1000:1 (Typ.)',
+        'Input Video Formats' => 'Analog VGA and digital DVI, HDMI(DP Optional)',
+        'Sweep Frequency' => '31.5-60.2kHz; vertical: 56.3-75 Hz',
+        'Touch Technology' => 'Projected capacitive',
+        'Touch Chip' => 'weida, eeti, ilitek',
+        'Touch Points' => '1-10',
+        'Touch Supply Voltage' => '5V',
+        'Touch Interface' => 'USB',
+        'Touch Support System' => 'Windows, Android, Linux',
+        'Power' => 'External DC, input voltage DC: 12V',
+        'Power Consumption (Standard)' => 'Display only: 13.5W(Typ.)',
+        'Operating Temperature' => '-20°C~70°C',
+        'Storage Temperature' => '-20°C~70°C',
+        'Operating Humidity' => '20% to 80% (no condensation)',
+        'Storage Humidity' => '10% to 90% (non-condensing)',
+        'MTBF' => '50,000 hours',
+        'Weight (Approx.)' => 'Net weight: 3.6 kg(Typ.); Shipping: 5.6 kg (reference)',
+        'Warranty' => '1 year',
+        'OSD' => 'Digital OSD',
+        'User Controls' => 'OSD Button: Menu, Up, Down, Select, Power',
+        'OSD Functions' => 'Contrast, Brightness, Horizontal / Vertical Bits Clock, phase, call default, language (English, German, Spanish, Japanese, French)',
+        'OSD Remote Accessories' => 'Optional controls (front): Menu, Up, Down, Select, Power',
+        'Mounting Options' => '100mm or 75mm VESA mounting, open bracket mounting',
+        'Water and Dust Protection' => 'IP65(front)/IK08(front)',
+        'Surface Treatment' => 'AG AR AF (Customizable)',
+        'Agency Approvals' => 'FCC, CE, CB, China RoHS CQC'
+    ],
+    'related_products' => [
+        ['name' => 'TLE-C101', 'description' => '10.1" Industrial All-in-One PC', 'screen_size' => '10.1', 'resolution' => '1280x800', 'brightness' => '330', 'url' => '/products/industrial-et-7'],
+        ['name' => 'TLE-L1012', 'description' => '10.1" IP65 Open Frame PCAP Multitouch', 'screen_size' => '10.1', 'resolution' => '1280x800', 'brightness' => '400', 'url' => '/products/industrial-et-10'],
+        ['name' => 'TLE-C156-CT-HD', 'description' => '15.6" Industrial Touch Monitor', 'screen_size' => '15.6', 'resolution' => '1920x1080', 'brightness' => '300', 'url' => '/products/industrial-et-21']
+    ]
+];
+@endphp
+@extends('pages.models.template')

@@ -21,77 +21,103 @@
             <p class="text-xl text-gray-600">High-quality displays designed for specific industry needs</p>
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors">
-                <div class="w-16 h-16 bg-gray-800 rounded-lg mb-4 flex items-center justify-center">
-                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path>
-                    </svg>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/industrial-et-7'">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                    <img src="/images/products/industrial-et-7.svg" alt="TLE-C101" class="w-full h-full object-contain">
                 </div>
-                <h3 class="text-xl font-semibold text-gray-900 mb-3">Industrial Displays</h3>
-                <p class="text-gray-600 mb-4">Rugged displays for harsh industrial environments</p>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C101</h3>
+                <p class="text-gray-600 mb-4">10.1" Industrial All-in-One PC with Intel Bay Trail-d chipset</p>
                 <div class="space-y-2 mb-4">
-                    <div class="text-sm text-gray-500">• 7" to 24" sizes</div>
+                    <div class="text-sm text-gray-500">• 10.1" screen size</div>
+                    <div class="text-sm text-gray-500">• 1280x800 resolution</div>
+                    <div class="text-sm text-gray-500">• 330 nits brightness</div>
+                    <div class="text-sm text-gray-500">• All-in-One PC</div>
+                </div>
+                <button class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
+                    View Details
+                </button>
+            </div>
+            
+            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/industrial-et-10'">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                    <img src="/images/products/tle-l1012.svg" alt="TLE-L1012" class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-L1012</h3>
+                <p class="text-gray-600 mb-4">10.1" IP65 Open Frame PCAP Multitouch Touch Monitor</p>
+                <div class="space-y-2 mb-4">
+                    <div class="text-sm text-gray-500">• 10.1" screen size</div>
+                    <div class="text-sm text-gray-500">• 1280x800 resolution</div>
+                    <div class="text-sm text-gray-500">• 400 nits brightness</div>
                     <div class="text-sm text-gray-500">• IP65 protection</div>
-                    <div class="text-sm text-gray-500">• Wide temperature range</div>
-                    <div class="text-sm text-gray-500">• Shock resistant</div>
                 </div>
                 <button class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
                     View Details
                 </button>
             </div>
             
-            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors">
-                <div class="w-16 h-16 bg-gray-800 rounded-lg mb-4 flex items-center justify-center">
-                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
-                    </svg>
+            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/industrial-et-15'">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                    <img src="/images/products/industrial-et-15.svg" alt="TLE-C150-CT-HD" class="w-full h-full object-contain">
                 </div>
-                <h3 class="text-xl font-semibold text-gray-900 mb-3">Medical Displays</h3>
-                <p class="text-gray-600 mb-4">High-precision displays for medical equipment</p>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C150-CT-HD</h3>
+                <p class="text-gray-600 mb-4">15.0" Industrial Touch Monitor with Digital OSD</p>
                 <div class="space-y-2 mb-4">
-                    <div class="text-sm text-gray-500">• 10" to 32" sizes</div>
-                    <div class="text-sm text-gray-500">• Medical grade certification</div>
-                    <div class="text-sm text-gray-500">• High color accuracy</div>
-                    <div class="text-sm text-gray-500">• DICOM compliance</div>
+                    <div class="text-sm text-gray-500">• 15.0" screen size</div>
+                    <div class="text-sm text-gray-500">• 1024x768 resolution</div>
+                    <div class="text-sm text-gray-500">• 350 nits brightness</div>
+                    <div class="text-sm text-gray-500">• Digital OSD</div>
                 </div>
                 <button class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
                     View Details
                 </button>
             </div>
             
-            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors">
-                <div class="w-16 h-16 bg-gray-800 rounded-lg mb-4 flex items-center justify-center">
-                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"></path>
-                    </svg>
+            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/industrial-et-21'">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                    <img src="/images/products/industrial-et-21.svg" alt="TLE-C156-CT-HD" class="w-full h-full object-contain">
                 </div>
-                <h3 class="text-xl font-semibold text-gray-900 mb-3">Automotive Displays</h3>
-                <p class="text-gray-600 mb-4">Infotainment and instrument cluster displays</p>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C156-CT-HD</h3>
+                <p class="text-gray-600 mb-4">15.6" Industrial Touch Monitor with High Brightness</p>
                 <div class="space-y-2 mb-4">
-                    <div class="text-sm text-gray-500">• 6" to 15" sizes</div>
-                    <div class="text-sm text-gray-500">• Automotive grade</div>
-                    <div class="text-sm text-gray-500">• Sunlight readable</div>
-                    <div class="text-sm text-gray-500">• Temperature stable</div>
+                    <div class="text-sm text-gray-500">• 15.6" screen size</div>
+                    <div class="text-sm text-gray-500">• 1920x1080 resolution</div>
+                    <div class="text-sm text-gray-500">• 300 nits brightness</div>
+                    <div class="text-sm text-gray-500">• High brightness</div>
                 </div>
                 <button class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
                     View Details
                 </button>
             </div>
             
-            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors">
-                <div class="w-16 h-16 bg-gray-800 rounded-lg mb-4 flex items-center justify-center">
-                    <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
-                    </svg>
+            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/industrial-et-17'">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                    <img src="/images/products/industrial-et-17.svg" alt="TLE-C170-CT-HD" class="w-full h-full object-contain">
                 </div>
-                <h3 class="text-xl font-semibold text-gray-900 mb-3">Consumer Displays</h3>
-                <p class="text-gray-600 mb-4">High-quality displays for consumer electronics</p>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C170-CT-HD</h3>
+                <p class="text-gray-600 mb-4">17.0" Industrial Touch Monitor with High Resolution</p>
                 <div class="space-y-2 mb-4">
-                    <div class="text-sm text-gray-500">• 5" to 27" sizes</div>
-                    <div class="text-sm text-gray-500">• Ultra-thin design</div>
-                    <div class="text-sm text-gray-500">• Energy efficient</div>
-                    <div class="text-sm text-gray-500">• High resolution</div>
+                    <div class="text-sm text-gray-500">• 17.0" screen size</div>
+                    <div class="text-sm text-gray-500">• 1280x1024 resolution</div>
+                    <div class="text-sm text-gray-500">• 250 nits brightness</div>
+                    <div class="text-sm text-gray-500">• 5:4 aspect ratio</div>
+                </div>
+                <button class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
+                    View Details
+                </button>
+            </div>
+            
+            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/industrial-et-185'">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                    <img src="/images/products/industrial-et-185.svg" alt="TLE-C185B1000-CT-HD" class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C185B1000-CT-HD</h3>
+                <p class="text-gray-600 mb-4">18.5" Industrial Touch Monitor with Ultra High Brightness</p>
+                <div class="space-y-2 mb-4">
+                    <div class="text-sm text-gray-500">• 18.5" screen size</div>
+                    <div class="text-sm text-gray-500">• 1920x1080 resolution</div>
+                    <div class="text-sm text-gray-500">• 1000 nits brightness</div>
+                    <div class="text-sm text-gray-500">• Ultra high brightness</div>
                 </div>
                 <button class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">
                     View Details
@@ -307,4 +333,5 @@
         </div>
     </div>
 </section>
+
 @endsection
