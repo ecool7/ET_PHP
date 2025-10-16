@@ -108,5 +108,32 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
 
+    // Minimal carousel for product thumbnails in products grid
+    const carousels = document.querySelectorAll('.carousel');
+    carousels.forEach((carousel) => {
+        const slides = Array.from(carousel.querySelectorAll('.carousel-slide'));
+        if (slides.length <= 1) return;
+        let index = 0;
+        const prevBtn = carousel.querySelector('button:nth-of-type(1)');
+        const nextBtn = carousel.querySelector('button:nth-of-type(2)');
+
+        const update = () => {
+            slides.forEach((s, i) => {
+                s.style.display = i === index ? 'block' : 'none';
+            });
+        };
+        update();
+
+        const next = () => { index = (index + 1) % slides.length; update(); };
+        const prev = () => { index = (index - 1 + slides.length) % slides.length; update(); };
+
+        prevBtn && prevBtn.addEventListener('click', (e) => { e.stopPropagation(); prev(); });
+        nextBtn && nextBtn.addEventListener('click', (e) => { e.stopPropagation(); next(); });
+
+        let timer = setInterval(next, 4000);
+        carousel.addEventListener('mouseenter', () => clearInterval(timer));
+        carousel.addEventListener('mouseleave', () => { timer = setInterval(next, 4000); });
+    });
+
     console.log('Element Touch - Display Solutions initialized');
 });

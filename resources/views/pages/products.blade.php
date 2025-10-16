@@ -23,8 +23,10 @@
         
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/industrial-et-7'">
-                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                    <img src="/images/products/industrial-et-7.svg" alt="TLE-C101" class="w-full h-full object-contain">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group carousel">
+                    <img src="/images/products/industrial-et-7.svg" alt="TLE-C101" class="w-full h-full object-contain carousel-slide">
+                    <button type="button" class="hidden group-hover:flex absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">‹</button>
+                    <button type="button" class="hidden group-hover:flex absolute right-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">›</button>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C101</h3>
                 <p class="text-gray-600 mb-4">10.1" Industrial All-in-One PC with Intel Bay Trail-d chipset</p>
@@ -40,8 +42,10 @@
             </div>
             
             <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/industrial-et-10'">
-                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                    <img src="/images/products/tle-l1012.svg" alt="TLE-L1012" class="w-full h-full object-contain">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group carousel">
+                    <img src="/images/products/tle-l1012.svg" alt="TLE-L1012" class="w-full h-full object-contain carousel-slide">
+                    <button type="button" class="hidden group-hover:flex absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">‹</button>
+                    <button type="button" class="hidden group-hover:flex absolute right-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">›</button>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-L1012</h3>
                 <p class="text-gray-600 mb-4">10.1" IP65 Open Frame PCAP Multitouch Touch Monitor</p>
@@ -57,8 +61,10 @@
             </div>
             
             <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/industrial-et-15'">
-                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                    <img src="/images/products/industrial-et-15.svg" alt="TLE-C150-CT-HD" class="w-full h-full object-contain">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group carousel">
+                    <img src="/images/products/industrial-et-15.svg" alt="TLE-C150-CT-HD" class="w-full h-full object-contain carousel-slide">
+                    <button type="button" class="hidden group-hover:flex absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">‹</button>
+                    <button type="button" class="hidden group-hover:flex absolute right-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">›</button>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C150-CT-HD</h3>
                 <p class="text-gray-600 mb-4">15.0" Industrial Touch Monitor with Digital OSD</p>
@@ -74,8 +80,10 @@
             </div>
             
             <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/industrial-et-21'">
-                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                    <img src="/images/products/industrial-et-21.svg" alt="TLE-C156-CT-HD" class="w-full h-full object-contain">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group carousel">
+                    <img src="/images/products/industrial-et-21.svg" alt="TLE-C156-CT-HD" class="w-full h-full object-contain carousel-slide">
+                    <button type="button" class="hidden group-hover:flex absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">‹</button>
+                    <button type="button" class="hidden group-hover:flex absolute right-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">›</button>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C156-CT-HD</h3>
                 <p class="text-gray-600 mb-4">15.6" Industrial Touch Monitor with High Brightness</p>
@@ -91,8 +99,10 @@
             </div>
             
             <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/industrial-et-17'">
-                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                    <img src="/images/products/industrial-et-17.svg" alt="TLE-C170-CT-HD" class="w-full h-full object-contain">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group carousel">
+                    <img src="/images/products/industrial-et-17.svg" alt="TLE-C170-CT-HD" class="w-full h-full object-contain carousel-slide">
+                    <button type="button" class="hidden group-hover:flex absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">‹</button>
+                    <button type="button" class="hidden group-hover:flex absolute right-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">›</button>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C170-CT-HD</h3>
                 <p class="text-gray-600 mb-4">17.0" Industrial Touch Monitor with High Resolution</p>
@@ -108,8 +118,10 @@
             </div>
             
             <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/industrial-et-185'">
-                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                    <img src="/images/products/industrial-et-185.svg" alt="TLE-C185B1000-CT-HD" class="w-full h-full object-contain">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group carousel">
+                    <img src="/images/products/industrial-et-185.svg" alt="TLE-C185B1000-CT-HD" class="w-full h-full object-contain carousel-slide">
+                    <button type="button" class="hidden group-hover:flex absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">‹</button>
+                    <button type="button" class="hidden group-hover:flex absolute right-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">›</button>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C185B1000-CT-HD</h3>
                 <p class="text-gray-600 mb-4">18.5" Industrial Touch Monitor with Ultra High Brightness</p>
@@ -126,8 +138,10 @@
 
             <!-- New models -->
             <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/tle-c190-ct-hd'">
-                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                    <img src="/images/products/tle-c190-ct-hd.svg" alt="TLE-C190-CT-HD" class="w-full h-full object-contain">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group carousel">
+                    <img src="/images/products/tle-c190-ct-hd.svg" alt="TLE-C190-CT-HD" class="w-full h-full object-contain carousel-slide">
+                    <button type="button" class="hidden group-hover:flex absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">‹</button>
+                    <button type="button" class="hidden group-hover:flex absolute right-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">›</button>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C190-CT-HD</h3>
                 <p class="text-gray-600 mb-4">19.0" Industrial Touch Monitor</p>
@@ -141,8 +155,10 @@
             </div>
 
             <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/tle-c215-ct-hd'">
-                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                    <img src="/images/products/tle-c215-ct-hd.svg" alt="TLE-C215-CT-HD" class="w-full h-full object-contain">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group carousel">
+                    <img src="/images/products/tle-c215-ct-hd.svg" alt="TLE-C215-CT-HD" class="w-full h-full object-contain carousel-slide">
+                    <button type="button" class="hidden group-hover:flex absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">‹</button>
+                    <button type="button" class="hidden group-hover:flex absolute right-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">›</button>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C215-CT-HD</h3>
                 <p class="text-gray-600 mb-4">21.5" Industrial Touch Monitor</p>
@@ -156,8 +172,10 @@
             </div>
 
             <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/tle-c215b1000-ct-hd'">
-                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                    <img src="/images/products/tle-c215b1000-ct-hd.svg" alt="TLE-C215B1000-CT-HD" class="w-full h-full object-contain">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group carousel">
+                    <img src="/images/products/tle-c215b1000-ct-hd.svg" alt="TLE-C215B1000-CT-HD" class="w-full h-full object-contain carousel-slide">
+                    <button type="button" class="hidden group-hover:flex absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">‹</button>
+                    <button type="button" class="hidden group-hover:flex absolute right-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">›</button>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C215B1000-CT-HD</h3>
                 <p class="text-gray-600 mb-4">21.5" High Brightness 1000 nits Touch Monitor</p>
@@ -171,8 +189,10 @@
             </div>
 
             <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/tle-l2382'">
-                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                    <img src="/images/products/tle-l2382.svg" alt="TLE-L2382" class="w-full h-full object-contain">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group carousel">
+                    <img src="/images/products/tle-l2382.svg" alt="TLE-L2382" class="w-full h-full object-contain carousel-slide">
+                    <button type="button" class="hidden group-hover:flex absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">‹</button>
+                    <button type="button" class="hidden group-hover:flex absolute right-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">›</button>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-L2382</h3>
                 <p class="text-gray-600 mb-4">23.8" IP65 Open Frame PCAP Multitouch Monitor</p>
@@ -186,8 +206,10 @@
             </div>
 
             <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/tle-l2762'">
-                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                    <img src="/images/products/tle-l2762.svg" alt="TLE-L2762" class="w-full h-full object-contain">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group carousel">
+                    <img src="/images/products/tle-l2762.svg" alt="TLE-L2762" class="w-full h-full object-contain carousel-slide">
+                    <button type="button" class="hidden group-hover:flex absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">‹</button>
+                    <button type="button" class="hidden group-hover:flex absolute right-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">›</button>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-L2762</h3>
                 <p class="text-gray-600 mb-4">27" IP65 Open Frame PCAP Multitouch Monitor</p>
@@ -201,8 +223,10 @@
             </div>
 
             <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/et-af185-tp'">
-                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                    <img src="/images/products/et-af185-tp.svg" alt="ET-AF185-TP" class="w-full h-full object-contain">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group carousel">
+                    <img src="/images/products/et-af185-tp.svg" alt="ET-AF185-TP" class="w-full h-full object-contain carousel-slide">
+                    <button type="button" class="hidden group-hover:flex absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">‹</button>
+                    <button type="button" class="hidden group-hover:flex absolute right-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">›</button>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 mb-3">ET-AF185-TP</h3>
                 <p class="text-gray-600 mb-4">18.5" Aluminum Alloy Open Frame Touch Monitor</p>
@@ -216,8 +240,10 @@
             </div>
 
             <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/et-le1739'">
-                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
-                    <img src="/images/products/et-le1739.svg" alt="ET-LE1739" class="w-full h-full object-contain">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group carousel">
+                    <img src="/images/products/et-le1739.svg" alt="ET-LE1739" class="w-full h-full object-contain carousel-slide">
+                    <button type="button" class="hidden group-hover:flex absolute left-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">‹</button>
+                    <button type="button" class="hidden group-hover:flex absolute right-1 top-1/2 -translate-y-1/2 w-6 h-6 items-center justify-center rounded bg-white/70 text-gray-800 text-xs">›</button>
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 mb-3">ET-LE1739</h3>
                 <p class="text-gray-600 mb-4">17" Open Frame SAW IP65 Touch Monitor</p>
