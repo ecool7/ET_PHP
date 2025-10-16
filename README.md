@@ -56,6 +56,24 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+## Deployment (Cloudways)
+
+1. Create a new PHP app in Cloudways and connect Git to `https://github.com/ecool7/ET_PHP.git` on branch `main`.
+2. Set Web Root to `public`.
+3. Over SSH in app root:
+   - `cp .env.example .env` (or use Cloudways Env editor) and set `APP_URL`, DB variables.
+   - `composer install --no-dev --optimize-autoloader`
+   - `php artisan key:generate --force`
+   - `php artisan storage:link || true`
+   - `php artisan config:cache && php artisan route:cache && php artisan view:cache`
+   - `chmod -R ug+rwx storage bootstrap/cache`
+4. Built assets are committed in `public/build`. If you need to rebuild: `npm ci && npm run build`.
+
+Troubleshooting:
+- 500 error → `php artisan config:clear && php artisan cache:clear && php artisan view:clear`.
+- Assets 404 → verify `public/build/manifest.json` exists.
+- Images 404 → ensure files are in `public/images/...`.
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
