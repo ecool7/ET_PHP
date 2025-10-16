@@ -24,7 +24,7 @@
         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/industrial-et-7'">
                 <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden relative group carousel">
-                    <img src="/images/products/tle-c101.svg" alt="TLE-C101" class="w-full h-full object-contain carousel-slide">
+                    <img src="/images/products/tle-c101.jpg" alt="TLE-C101" class="w-full h-full object-contain carousel-slide">
                 </div>
                 <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C101</h3>
                 <p class="text-gray-600 mb-4">10.1" Industrial All-in-One PC with Intel Bay Trail-d chipset</p>
