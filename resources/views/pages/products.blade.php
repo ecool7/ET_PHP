@@ -123,6 +123,112 @@
                     View Details
                 </button>
             </div>
+
+            <!-- New models -->
+            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/tle-c190-ct-hd'">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                    <img src="/images/products/tle-c190-ct-hd.svg" alt="TLE-C190-CT-HD" class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C190-CT-HD</h3>
+                <p class="text-gray-600 mb-4">19.0" Industrial Touch Monitor</p>
+                <div class="space-y-2 mb-4">
+                    <div class="text-sm text-gray-500">• 19.0" screen size</div>
+                    <div class="text-sm text-gray-500">• 1280x1024 resolution</div>
+                    <div class="text-sm text-gray-500">• 250 nits brightness</div>
+                    <div class="text-sm text-gray-500">• PCAP touch</div>
+                </div>
+                <button class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">View Details</button>
+            </div>
+
+            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/tle-c215-ct-hd'">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                    <img src="/images/products/tle-c215-ct-hd.svg" alt="TLE-C215-CT-HD" class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C215-CT-HD</h3>
+                <p class="text-gray-600 mb-4">21.5" Industrial Touch Monitor</p>
+                <div class="space-y-2 mb-4">
+                    <div class="text-sm text-gray-500">• 21.5" screen size</div>
+                    <div class="text-sm text-gray-500">• 1920x1080 resolution</div>
+                    <div class="text-sm text-gray-500">• 250 nits brightness</div>
+                    <div class="text-sm text-gray-500">• PCAP touch</div>
+                </div>
+                <button class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">View Details</button>
+            </div>
+
+            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/tle-c215b1000-ct-hd'">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                    <img src="/images/products/tle-c215b1000-ct-hd.svg" alt="TLE-C215B1000-CT-HD" class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-C215B1000-CT-HD</h3>
+                <p class="text-gray-600 mb-4">21.5" High Brightness 1000 nits Touch Monitor</p>
+                <div class="space-y-2 mb-4">
+                    <div class="text-sm text-gray-500">• 21.5" screen size</div>
+                    <div class="text-sm text-gray-500">• 1920x1080 resolution</div>
+                    <div class="text-sm text-gray-500">• 1000 nits brightness</div>
+                    <div class="text-sm text-gray-500">• PCAP touch</div>
+                </div>
+                <button class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">View Details</button>
+            </div>
+
+            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/tle-l2382'">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                    <img src="/images/products/tle-l2382.svg" alt="TLE-L2382" class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-L2382</h3>
+                <p class="text-gray-600 mb-4">23.8" IP65 Open Frame PCAP Multitouch Monitor</p>
+                <div class="space-y-2 mb-4">
+                    <div class="text-sm text-gray-500">• 23.8" screen size</div>
+                    <div class="text-sm text-gray-500">• 1920x1080 resolution</div>
+                    <div class="text-sm text-gray-500">• 250 nits brightness</div>
+                    <div class="text-sm text-gray-500">• IP65 front</div>
+                </div>
+                <button class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">View Details</button>
+            </div>
+
+            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/tle-l2762'">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                    <img src="/images/products/tle-l2762.svg" alt="TLE-L2762" class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">TLE-L2762</h3>
+                <p class="text-gray-600 mb-4">27" IP65 Open Frame PCAP Multitouch Monitor</p>
+                <div class="space-y-2 mb-4">
+                    <div class="text-sm text-gray-500">• 27" screen size</div>
+                    <div class="text-sm text-gray-500">• 1920x1080 resolution</div>
+                    <div class="text-sm text-gray-500">• 300 nits brightness</div>
+                    <div class="text-sm text-gray-500">• IP65 front</div>
+                </div>
+                <button class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">View Details</button>
+            </div>
+
+            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/et-af185-tp'">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                    <img src="/images/products/et-af185-tp.svg" alt="ET-AF185-TP" class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">ET-AF185-TP</h3>
+                <p class="text-gray-600 mb-4">18.5" Aluminum Alloy Open Frame Touch Monitor</p>
+                <div class="space-y-2 mb-4">
+                    <div class="text-sm text-gray-500">• 18.5" screen size</div>
+                    <div class="text-sm text-gray-500">• 1920x1080 resolution</div>
+                    <div class="text-sm text-gray-500">• 250 nits brightness</div>
+                    <div class="text-sm text-gray-500">• PCAP touch</div>
+                </div>
+                <button class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">View Details</button>
+            </div>
+
+            <div class="bg-gray-50 rounded-lg p-6 hover:bg-gray-100 transition-colors cursor-pointer" onclick="window.location.href='/products/et-le1739'">
+                <div class="w-16 h-16 bg-gray-100 rounded-lg mb-4 flex items-center justify-center overflow-hidden">
+                    <img src="/images/products/et-le1739.svg" alt="ET-LE1739" class="w-full h-full object-contain">
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-3">ET-LE1739</h3>
+                <p class="text-gray-600 mb-4">17" Open Frame SAW IP65 Touch Monitor</p>
+                <div class="space-y-2 mb-4">
+                    <div class="text-sm text-gray-500">• 17" screen size</div>
+                    <div class="text-sm text-gray-500">• 1024x768 resolution</div>
+                    <div class="text-sm text-gray-500">• 250 nits brightness</div>
+                    <div class="text-sm text-gray-500">• SAW touch</div>
+                </div>
+                <button class="w-full bg-gray-800 text-white py-2 px-4 rounded-lg hover:bg-gray-700 transition-colors">View Details</button>
+            </div>
         </div>
     </div>
 </section>
