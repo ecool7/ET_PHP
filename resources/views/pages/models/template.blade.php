@@ -17,12 +17,28 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
             <!-- Product Image -->
             <div>
-                <div class="bg-gray-100 rounded-lg p-8 mb-6">
-                    <div class="aspect-w-16 aspect-h-9 bg-gray-200 rounded-lg flex items-center justify-center">
-                        @if(isset($model['image']) && $model['image'])
-                            <img src="{{ $model['image'] }}" alt="{{ $model['name'] }}" class="max-w-full max-h-full object-contain rounded-lg">
+                <div class="bg-gray-100 rounded-lg p-4 sm:p-6 md:p-8 mb-6">
+                    <div class="bg-gray-200 rounded-lg flex items-center justify-center overflow-hidden relative group carousel w-[490px] h-[400px] mx-auto">
+                        @php
+                            $images = [];
+                            if(isset($model['images']) && is_array($model['images']) && count($model['images']) > 0) {
+                                $images = $model['images'];
+                            } elseif(isset($model['image']) && $model['image']) {
+                                $images = [ $model['image'] ];
+                            }
+                        @endphp
+
+                        @if(count($images) > 0)
+                            @foreach($images as $index => $src)
+                                <img src="{{ $src }}" alt="{{ $model['name'] }}"
+                                     class="carousel-slide w-full h-full object-cover {{ $index === 0 ? 'block' : 'hidden' }}">
+                            @endforeach
+                            @if(count($images) > 1)
+                                <button type="button" class="carousel-prev absolute left-1 top-1/2 -translate-y-1/2 w-12 h-12 items-center justify-center rounded-full bg-white text-gray-800 text-2xl z-20 shadow-lg hover:bg-gray-100 transition-colors flex border-2 border-gray-300">‹</button>
+                                <button type="button" class="carousel-next absolute right-1 top-1/2 -translate-y-1/2 w-12 h-12 items-center justify-center rounded-full bg-white text-gray-800 text-2xl z-20 shadow-lg hover:bg-gray-100 transition-colors flex border-2 border-gray-300">›</button>
+                            @endif
                         @else
-                            <div class="text-center">
+                            <div class="text-center w-full py-10">
                                 <div class="w-32 h-24 bg-gray-800 rounded-lg mx-auto mb-4 flex items-center justify-center">
                                     <svg class="w-16 h-12 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>

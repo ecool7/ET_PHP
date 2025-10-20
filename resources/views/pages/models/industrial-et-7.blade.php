@@ -7,7 +7,10 @@ $model = [
     'resolution' => '1280x800',
     'brightness' => '330',
     'response_time' => '25ms',
-    'image' => '/images/products/tle-c101.jpg',
+    'images' => [
+        '/images/products/tle-c101.png',
+        '/images/products/tle-c101_v2.png'
+    ],
     'specifications' => [
         'Case/Frame Color' => 'Black',
         'Machine Dimensions' => '263.8mm(W) x 178.8mm(H), Thickness: 45mm',

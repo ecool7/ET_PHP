@@ -108,31 +108,71 @@ document.addEventListener('DOMContentLoaded', function() {
         observer.observe(el);
     });
 
-    // Minimal carousel for product thumbnails in products grid
+    // Simple carousel for product images
     const carousels = document.querySelectorAll('.carousel');
     carousels.forEach((carousel) => {
         const slides = Array.from(carousel.querySelectorAll('.carousel-slide'));
         if (slides.length <= 1) return;
+        
         let index = 0;
-        const prevBtn = carousel.querySelector('button:nth-of-type(1)');
-        const nextBtn = carousel.querySelector('button:nth-of-type(2)');
+        const prevBtn = carousel.querySelector('.carousel-prev');
+        const nextBtn = carousel.querySelector('.carousel-next');
+        const indicators = Array.from(carousel.querySelectorAll('.carousel-indicator'));
 
         const update = () => {
-            slides.forEach((s, i) => {
-                s.style.display = i === index ? 'block' : 'none';
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('block', i === index);
+                slide.classList.toggle('hidden', i !== index);
+            });
+            
+            // Update indicators
+            indicators.forEach((indicator, i) => {
+                indicator.classList.toggle('bg-white', i === index);
+                indicator.classList.toggle('bg-white/50', i !== index);
             });
         };
+        
         update();
 
-        const next = () => { index = (index + 1) % slides.length; update(); };
-        const prev = () => { index = (index - 1 + slides.length) % slides.length; update(); };
+        const next = () => { 
+            index = (index + 1) % slides.length; 
+            update(); 
+        };
+        
+        const prev = () => { 
+            index = (index - 1 + slides.length) % slides.length; 
+            update(); 
+        };
 
-        prevBtn && prevBtn.addEventListener('click', (e) => { e.stopPropagation(); prev(); });
-        nextBtn && nextBtn.addEventListener('click', (e) => { e.stopPropagation(); next(); });
+        const goToSlide = (slideIndex) => {
+            index = slideIndex;
+            update();
+        };
 
+        if (prevBtn) prevBtn.addEventListener('click', (e) => { 
+            e.stopPropagation(); 
+            prev(); 
+        });
+        
+        if (nextBtn) nextBtn.addEventListener('click', (e) => { 
+            e.stopPropagation(); 
+            next(); 
+        });
+
+        // Add click handlers to indicators
+        indicators.forEach((indicator, i) => {
+            indicator.addEventListener('click', (e) => {
+                e.stopPropagation();
+                goToSlide(i);
+            });
+        });
+
+        // Auto-advance every 4 seconds
         let timer = setInterval(next, 4000);
         carousel.addEventListener('mouseenter', () => clearInterval(timer));
-        carousel.addEventListener('mouseleave', () => { timer = setInterval(next, 4000); });
+        carousel.addEventListener('mouseleave', () => { 
+            timer = setInterval(next, 4000); 
+        });
     });
 
     console.log('Element Touch - Display Solutions initialized');

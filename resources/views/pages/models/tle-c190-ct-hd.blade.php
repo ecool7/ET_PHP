@@ -7,7 +7,9 @@ $model = [
     'resolution' => '1280x1024',
     'brightness' => '250',
     'response_time' => '5ms',
-    'image' => '/images/products/tle-c190-ct-hd.svg',
+    'images' => [
+        '/images/products/TLE-C190.png'
+    ],
     'specifications' => [
         'Case/Frame Color' => 'Black',
         'Display Type' => 'Active matrix TFT LCD, LED backlight',

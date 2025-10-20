@@ -7,7 +7,9 @@ $model = [
     'resolution' => '1920x1080',
     'brightness' => '250',
     'response_time' => '3ms',
-    'image' => '/images/products/tle-l2382.svg',
+    'images' => [
+        '/images/products/TLE-L2382.png'
+    ],
     'specifications' => [
         'Model' => 'TLE-L2382',
         'Description' => '23.8" IP65 Open Frame PCAP Multitouch Touch Monitor',

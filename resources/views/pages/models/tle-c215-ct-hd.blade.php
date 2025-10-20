@@ -7,7 +7,9 @@ $model = [
     'resolution' => '1920x1080',
     'brightness' => '250',
     'response_time' => '14ms',
-    'image' => '/images/products/tle-c215-ct-hd.svg',
+    'images' => [
+        '/images/products/TLE-C215.png'
+    ],
     'specifications' => [
         'Case/Frame Color' => 'Black',
         'Display Type' => 'Active matrix TFT LCD, LED backlight',

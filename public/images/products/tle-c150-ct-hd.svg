@@ -1,0 +1,7 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="400" fill="#f3f4f6"/>
+  <rect x="50" y="50" width="400" height="300" fill="#1f2937" rx="8"/>
+  <rect x="70" y="70" width="360" height="200" fill="#3b82f6"/>
+  <text x="250" y="200" text-anchor="middle" fill="white" font-family="Arial" font-size="24" font-weight="bold">TLE-C150-CT-HD</text>
+  <text x="250" y="230" text-anchor="middle" fill="white" font-family="Arial" font-size="16">15.0" Touch Monitor</text>
+</svg>

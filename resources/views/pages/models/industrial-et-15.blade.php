@@ -7,7 +7,11 @@ $model = [
     'resolution' => '1024x768',
     'brightness' => '350',
     'response_time' => '30ms',
-    'image' => '/images/products/industrial-et-15.svg',
+    'images' => [
+        '/images/products/TLE-C150-CT-HD.png',
+        '/images/products/tle-c150-ct-hd.svg',
+        '/images/products/tle-c150-ct-hd-front.svg'
+    ],
     'specifications' => [
         'Case/Frame Color' => 'Black',
         'Display Type' => 'Active matrix TFT LCD, LED backlight',

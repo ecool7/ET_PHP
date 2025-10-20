@@ -7,7 +7,9 @@ $model = [
     'resolution' => '1920x1080',
     'brightness' => '1000',
     'response_time' => '30ms',
-    'image' => '/images/products/industrial-et-185.svg',
+    'images' => [
+        '/images/products/TLE-C185.png'
+    ],
     'specifications' => [
         'Case/Frame Color' => 'Black',
         'Display Type' => 'Active matrix TFT LCD, LED backlight',

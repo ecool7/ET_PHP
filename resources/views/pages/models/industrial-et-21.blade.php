@@ -7,7 +7,9 @@ $model = [
     'resolution' => '1920x1080',
     'brightness' => '300',
     'response_time' => '8ms',
-    'image' => '/images/products/industrial-et-21.svg',
+    'images' => [
+        '/images/products/TLE-C156-CT-HD.png'
+    ],
     'specifications' => [
         'Case/Frame Color' => 'Black',
         'Display Type' => 'Active matrix TFT LCD, LED backlight',

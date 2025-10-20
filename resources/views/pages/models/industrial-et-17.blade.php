@@ -7,7 +7,9 @@ $model = [
     'resolution' => '1280x1024',
     'brightness' => '250',
     'response_time' => '5ms',
-    'image' => '/images/products/industrial-et-17.svg',
+    'images' => [
+        '/images/products/TLE-C170-CT-HD.png'
+    ],
     'specifications' => [
         'Case/Frame Color' => 'Black',
         'Display Type' => 'Active matrix TFT LCD, LED backlight',

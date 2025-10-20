@@ -7,7 +7,9 @@ $model = [
     'resolution' => '1920x1080',
     'brightness' => '250',
     'response_time' => '<5ms',
-    'image' => '/images/products/et-af185-tp.svg',
+    'images' => [
+        '/images/products/ET-AF185-TP.png'
+    ],
     'specifications' => [
         'Buttons' => 'OSD on rear: contrast/brightness adjustable',
         'USB' => '1× USB (touch)',

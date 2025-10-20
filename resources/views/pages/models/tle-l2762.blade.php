@@ -7,7 +7,9 @@ $model = [
     'resolution' => '1920x1080',
     'brightness' => '300',
     'response_time' => '3ms',
-    'image' => '/images/products/tle-l2762.svg',
+    'images' => [
+        '/images/products/TLE-L2762.png'
+    ],
     'specifications' => [
         'Model' => 'TLE-L2762',
         'Description' => '27" IP65 Open Frame PCAP Multitouch Touch Monitor',

@@ -7,7 +7,9 @@ $model = [
     'resolution' => '1024x768',
     'brightness' => '250',
     'response_time' => '5ms',
-    'image' => '/images/products/et-le1739.svg',
+    'images' => [
+        '/images/products/ET-LE1739.png'
+    ],
     'specifications' => [
         'Description' => '17" Open Frame Surface Acoustic Wave (SAW) IP65 Touch Monitor',
         'Case/Bezel Color' => 'Steel/Black',

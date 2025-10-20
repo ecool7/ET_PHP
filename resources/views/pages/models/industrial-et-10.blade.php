@@ -7,7 +7,11 @@ $model = [
     'resolution' => '1280x800',
     'brightness' => '400',
     'response_time' => '3ms',
-    'image' => '/images/products/tle-l1012.svg',
+    'images' => [
+        '/images/products/tle-l1012.png',
+        '/images/products/tle-l1012-side.svg',
+        '/images/products/tle-l1012-mount.svg'
+    ],
     'specifications' => [
         'Model' => 'TLE-L1012',
         'Description' => '10.1" IP65 Open Frame PCAP Multitouch Touch Monitor',
